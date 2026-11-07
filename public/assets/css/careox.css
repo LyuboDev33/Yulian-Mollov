@@ -418,6 +418,8 @@ img {
 
   position: relative;
   text-align: center;
+  background-color: #66abf2;
+  cursor: pointer;
 }
 
 @media (max-width: 350px) {
@@ -455,9 +457,9 @@ img {
   border: 1px solid var(--careox-base, #ff5528);
   transform: scale(1.2, 1.2);
 }
-.careox-btn:hover {
+/* .careox-btn:hover {
   color: var(--careox-base, #ff5528);
-}
+} */
 .careox-btn:hover::before {
   opacity: 0;
   transform: scale(0.5, 0.5);
@@ -6681,9 +6683,9 @@ body.megamenu-popup-active .mobile-nav__content {
 .cta-one .careox-btn::after {
   border-color: var(--careox-white, #fff);
 }
-.cta-one .careox-btn:hover {
+/* .cta-one .careox-btn:hover {
   color: var(--careox-white, #fff);
-}
+} */
 .cta-one__shape-middle {
   position: absolute;
   left: 0;

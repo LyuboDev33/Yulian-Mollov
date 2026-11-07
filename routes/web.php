@@ -27,6 +27,7 @@ use Illuminate\Support\Facades\Session;
 
  Route::get('/', [FrontEndController::class, 'home'] )->name('home');
  Route::get('/treatment',  [FrontEndController::class, 'treatment'])->name('treatment');
+ Route::get('/obucheniya', [FrontEndController::class, 'teaching'])->name('teaching');
 
 //  Route::get('/charge', function () {return view('main_pages_files.charge');});
 
@@ -52,7 +53,7 @@ Route::middleware('translation')->group(function () {
 
     // Route::get('/', [StripeController::class, 'home'] )->name('welcome__page');
     // Route::get('/support', function () { return view('main_pages_files.support');})->name('support');
-    Route::get('/contact', function () { return view('main_pages_files.contact');});
+    Route::get('/contact', function () { return view('main_pages_files.contact');})->name('contact');
     Route::get('/obshti-usloviq', function () { return view('main_pages_files.privacy-conditions.conditions'); });
     Route::get('/about', function(){ return view('main_pages_files.about'); });
     Route::get('/success', function () { return view('main_pages_files.success');})->name('success');

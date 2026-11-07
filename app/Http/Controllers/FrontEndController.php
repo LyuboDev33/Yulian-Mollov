@@ -17,4 +17,9 @@ class FrontEndController extends Controller
     }
 
 
+    /** Show the teaching page */
+    public function teaching () {
+        return view('main_pages_files.teaching');
+    }
+
 }

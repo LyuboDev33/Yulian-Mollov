@@ -4,7 +4,7 @@
                     <div class="col-xl-6">
                         <div class="about-one__image">
                             <div class="about-one__image__one">
-                                <img src="/assets/images/dr.yuli/dr-molov.webp" alt="д-р Юлиян Моллов">
+                                <img src="/assets/images/welcome/mollov-2.png" alt="д-р Юлиян Моллов">
                             </div>
                             <div class="about-one__image__two">
                                 {{-- <img src="assets/images/resources/about-1-4.jpg" alt="careox"> --}}
@@ -26,11 +26,11 @@
                                 <br><br>
                          {{ __('messages.who_is_dr_mollov3') }}
                             </p>
-                     
-                          
+
+
                         </div><!-- /.about__content -->
                     </div><!-- /.col-lg-6 -->
                 </div><!-- /.row -->
-              
+
             </div><!-- /.container -->
         </section><!-- /.about-one -->

@@ -28,7 +28,7 @@
     <link rel="stylesheet" href="/assets/vendors/fontawesome/css/all.min.css?v=<?php echo time(); ?>" />
     <link rel="stylesheet" href="/assets/vendors/icofont/icofont.min.css?v=<?php echo time(); ?>" />
     <link rel="stylesheet" href="/assets/vendors/careox-icons/style.css?v=<?php echo time(); ?>" />
-    
+
     <!-- template styles -->
     <link rel="stylesheet" href="/assets/css/careox.css?v=<?php echo time(); ?>" />
     <link rel="stylesheet" href="/assets/css/custom.css?v=<?php echo time(); ?>" />
@@ -37,7 +37,6 @@
     <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
 
- 
     <!-- End Meta Pixel Code -->
 
     <!-- Dynamic Meta SEO Tags -->
@@ -263,7 +262,7 @@
                                                 class="redStart">*</span></label>
                                         <input id="amount" min="1" max="5000" class="inputFields"
                                             type="tel" name="amount" placeholder="{!! __('messages.discover_placeholder_amount') !!}"
-                                            onkeypress="return (event.charCode == 8 || event.charCode == 0 || 
+                                            onkeypress="return (event.charCode == 8 || event.charCode == 0 ||
                                         event.charCode == 13) ? null : event.charCode >= 48 && event.charCode <= 57">
                                         <p class="inputError d-none">
                                             {!! __('validation.required') !!}
@@ -284,7 +283,7 @@
                                             <input type="range" min='0' max='30' step='5' />
                                             <span class="percentageDonate">15%</span>
 
-                                            <p class="text-centered">  
+                                            <p class="text-centered">
                                                 {!! __('messages.discover_support_tax_message') !!}
                                             </p>
                                         </div>
@@ -342,7 +341,7 @@
                                             </button>
 
                                             <button onclick="$('#modalShare').css('display', 'flex')"
-                                                id="shareBtn" 
+                                                id="shareBtn"
                                                 type="button"
                                                 class="careox-btn bg-black mt-20 w-100">
                                                     <span>
@@ -439,7 +438,7 @@
             <div class="d-flex justify-content-between">
                 <h4 class="text-center">{!! __('messages.discover_help_by_sharing') !!}</h4>
                 <button onclick="this.closest('#modalShare').style.display='none'"
-                type="button" 
+                type="button"
                 class="btn-close"></button>
             </div>
 

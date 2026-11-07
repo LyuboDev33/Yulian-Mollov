@@ -161,7 +161,7 @@
                             Език:
                     @endswitch
                     @php
-                        $languages = ['en' => 'English', 
+                        $languages = ['en' => 'English',
                                       'bg' => 'Български',
                                       'tr' => 'Türkçe'
                                     ];
@@ -246,23 +246,3 @@
     </div>
 </div> --}}
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<script src="/assets/vendors/bootstrap/js/bootstrap.bundle.min.js?v=<?php echo time(); ?>"></script>
-<script src="/assets/vendors/bootstrap-select/bootstrap-select.min.js?v=<?php echo time(); ?>"></script>
-<script src="/assets/vendors/jarallax/jarallax.min.js?v=<?php echo time(); ?>"></script>
-
-<script src="/assets/vendors/jquery-appear/jquery.appear.min.js?v=<?php echo time(); ?>"></script>
-<script src="/assets/vendors/jquery-circle-progress/jquery.circle-progress.min.js?v=<?php echo time(); ?>"></script>
-<script src="/assets/vendors/jquery-magnific-popup/jquery.magnific-popup.min.js?v=<?php echo time(); ?>"></script>
-<script src="/assets/vendors/jquery-validate/jquery.validate.min.js?v=<?php echo time(); ?>"></script>
-<script src="/assets/vendors/nouislider/nouislider.min.js?v=<?php echo time(); ?>"></script>
-<script src="/assets/vendors/tiny-slider/tiny-slider.js?v=<?php echo time(); ?>"></script>
-{{-- <script src="/assets/vendors/wnumb/wNumb.min.js"></script> --}}
-<script src="/assets/vendors/owl-carousel/js/owl.carousel.min.js?v=<?php echo time(); ?>"></script>
-<script src="/assets/vendors/wow/wow.js?v=<?php echo time(); ?>"></script>
-<script src="/assets/vendors/imagesloaded/imagesloaded.min.js?v=<?php echo time(); ?>"></script>
-
-<script src="/assets/js/careox.js?v=<?php echo time(); ?>"></script>
-<script src="/javascript/ajax/contact-form.js?v=<?php echo time(); ?>"></script>
-<script src="/javascript/ajax/newsletter.js?v=<?php echo time(); ?>"></script>

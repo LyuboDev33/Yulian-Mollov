@@ -22,7 +22,7 @@
         @include('main_pages_files.inc.header')
 
         {{-- @include('main_pages_files.inc.who-is-dr-mollov') --}}
-        
+
         <hr>
 
         <section class="donations-one">
@@ -36,10 +36,10 @@
                           {{ __('messages.news_related_to_mollov') }}
                     </h3>
                 </div>
-        
+
                 <div class="row">
-                    
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
+
+                    {{-- <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #ffa415;">
                             <div class="donations-one__item__image">
                                 <img src="/assets/images/news/yuli1.webp" alt="careox">
@@ -52,8 +52,8 @@
                                 Разгледай</a>
                             </div>
                         </div>
-                    </div>
-        
+                    </div> --}}
+
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #ff5528;">
                             <div class="donations-one__item__image">
@@ -68,7 +68,7 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #8742e8;">
                             <div class="donations-one__item__image">
@@ -86,7 +86,7 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #44c895;">
                             <div class="donations-one__item__image">
@@ -102,13 +102,13 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #399be7;">
                             <div class="donations-one__item__image">
                                 <img src="/assets/images/news/budni.jpg" alt="careox">
                                 <a target="_blank" href="https://www.youtube.com/watch?v=OvoagDCRTqA" class="donations-one__item__image__link"></a>
-                      
+
                             </div>
                             <div class="donations-one__item__content">
                                 <h3 class="donations-one__item__title"><a target="_blank" href="https://www.youtube.com/watch?v=OvoagDCRTqA">БНТ - Призвание медик</a></h3>
@@ -121,7 +121,7 @@
                             </div>
                         </div>
                     </div>
-        
+
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #d340c3;">
                             <div class="donations-one__item__image">
@@ -208,22 +208,7 @@
                     </div>
 
 
-                    <div class="col-12 col-md-6 col-lg-4 mb-4">
-                        <div class="donations-one__item" style="--accent-color: #399be7;">
-                            <div class="donations-one__item__image">
-                                <img src="/assets/images/news/opening.webp" alt="careox">
-                                <a target="_blank" target="_blank" href="https://www.portal-silistra.eu/news/15607" class="donations-one__item__image__link"></a>
-                            </div>
-                            <div class="donations-one__item__content">
-                                <h3 class="donations-one__item__title"><a target="_blank" href="https://www.portal-silistra.eu/news/15607">Силистренецът д-р Юлиян Моллов ще представи фондацията си в София</a></h3>
-                                <p class="donations-one__item__text">
-                                  На 5-ти Март 2025г. е официалното откриване на д-р Моллов
-                                </p>
-                                <a target="_blank" class="donations-one__item__rm" href="https://www.portal-silistra.eu/news/15607"><i class="icon-right-arrow"></i>
-                                Разгледай</a>
-                            </div>
-                        </div>
-                    </div>
+
 
                     <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #8742e8;">
@@ -241,8 +226,8 @@
                             </div>
                         </div>
                     </div>
-                    
-                     <div class="col-12 col-md-6 col-lg-4 mb-4">
+
+                     {{-- <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #8742e8;">
                             <div class="donations-one__item__image">
                                 <img src="/assets/images/news/yulix2.jpg" alt="careox">
@@ -257,8 +242,8 @@
                                 Разгледай</a>
                             </div>
                         </div>
-                    </div>
-                    
+                    </div> --}}
+
                       <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #8742e8;">
                             <div class="donations-one__item__image">
@@ -277,7 +262,7 @@
                             </div>
                         </div>
                     </div>
-                    
+
                        <div class="col-12 col-md-6 col-lg-4 mb-4">
                         <div class="donations-one__item" style="--accent-color: #8742e8;">
                             <div class="donations-one__item__image">
@@ -296,8 +281,8 @@
                             </div>
                         </div>
                     </div>
-                    
-                    
+
+
 
 
                 </div><!-- /.row -->
@@ -321,15 +306,15 @@
                                 </div>
                             </div>
                         </div>
-                         
+
                     </div>
-                    
+
             </div>
-            
+
         </section>
-        
-    
-        
+
+
+
 
 
         @include('main_pages_files.inc.footer')

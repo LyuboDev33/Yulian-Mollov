@@ -1,3 +1,15 @@
+
+        .turkey-page {
+            --turkey-primary: var(--careox-secondary);
+            --turkey-dark: var(--careox-black);
+            --turkey-text: var(--careox-text);
+            --turkey-soft: var(--careox-gray);
+            --turkey-border: var(--careox-border-color);
+            --turkey-white: var(--careox-white);
+
+            color: var(--turkey-text);
+        }
+
 .background_msg {
     position: fixed;
     height: 100vh;
@@ -435,12 +447,12 @@ a.google span {
     /* Optional: Remove iframe border */
 }
 
-.messages { 
+.messages {
     display: flex;
     flex-direction: column;
     align-items: center;
- 
- 
+
+
     margin-top: 20px;
 }
 
@@ -451,11 +463,11 @@ a.google span {
     border: none;
 }
 
-.buyTicketEvents { 
+.buyTicketEvents {
     cursor: pointer;
 }
 
-.closeModal { 
+.closeModal {
     background-color: #66acf2;
     height: 48px;
     width: 100%;
@@ -465,7 +477,7 @@ a.google span {
     cursor: pointer;
 }
 
-modal { 
+modal {
     height: 100vh;
     width: 100%;
     position: fixed;
@@ -476,17 +488,17 @@ modal {
     align-items: center;
     justify-content: center;
     z-index: 999999;
-    
+
 }
 
-modal .content { 
+modal .content {
     background: white;
     padding: 10px;
     border-radius: 8px;
     max-width: 500px;
 }
 
-.swiper-objects { 
+.swiper-objects {
     overflow-x: hidden;
 }
 
@@ -509,7 +521,7 @@ modal .content {
     z-index: 2;
 }
 
-.background-image { 
+.background-image {
     position: absolute;
     top: 0;
     left: 0;
@@ -531,7 +543,7 @@ modal .content {
     cursor: pointer;
 }
 
-.second__btn.active, .first__btn.active { 
+.second__btn.active, .first__btn.active {
     background-color: #66acf2;
     color: white;
 }
@@ -550,11 +562,11 @@ modal .content {
     border-bottom-left-radius: 16px;
 }
 
-#iban { 
+#iban {
     display: none;
 }
 
-#modalShare { 
+#modalShare {
     position: fixed;
     top: 0;
     left: 0;
@@ -569,17 +581,17 @@ modal .content {
     flex-direction: column;
 }
 
-.custom-modal-dialog { 
+.custom-modal-dialog {
     background-color: white;
     padding: 20px;
     border-radius: 30px;
 }
 
-.header-custom-modal { 
+.header-custom-modal {
     display: flex;
 }
 
-.share-body-modal a { 
+.share-body-modal a {
     display: flex
     ;
         flex-direction: column;
@@ -612,7 +624,7 @@ modal .content {
         flex-direction: column;
     }
 
-    .btn__wrapper_payment { 
+    .btn__wrapper_payment {
         font-size: 16px;
         color: white;
         display: flex;
@@ -621,13 +633,13 @@ modal .content {
         justify-content: space-between;
         border-radius: 16px;
     }
-    
+
 }
 
 /* Media query for screens smaller than 480px */
 @media (max-width: 480px) {
 
-    .custom-modal-dialog { 
+    .custom-modal-dialog {
         width: 95%;
     }
 
@@ -635,11 +647,11 @@ modal .content {
         height: 200px; /* Smallest height for very narrow screens */
     }
 
-    .btn__wrapper, .btn__wrapper_payment { 
+    .btn__wrapper, .btn__wrapper_payment {
         flex-direction: column;
     }
 
-    .btn__wrapper_payment a { 
+    .btn__wrapper_payment a {
         border-radius: 16px;
     }
 }
@@ -715,8 +727,8 @@ modal .content {
 }
 
 
-@media (max-width: 768px) { 
-    .video__welcome { 
+@media (max-width: 768px) {
+    .video__welcome {
         height: 300px;
         width: 100%;
         margin: 30px auto;
@@ -725,14 +737,14 @@ modal .content {
       .support_div {
         padding-bottom: 35px;
     }
-  
+
 }
 
-@media (min-width: 768px) { 
+@media (min-width: 768px) {
 
-    
 
-    .video__welcome { 
+
+    .video__welcome {
         height: 450px;
         width: 100%;
         margin: 30px auto;
@@ -807,7 +819,7 @@ modal .content {
         margin-bottom: 100px;
     }
 
-    /* .container-format.login { 
+    /* .container-format.login {
         height: 400px !important;
     } */
 
@@ -840,7 +852,7 @@ modal .content {
 
 @media (min-width: 480px) {
 
-    .main_girl_smallScreen { 
+    .main_girl_smallScreen {
         display: none;
     }
 
@@ -887,11 +899,11 @@ modal .content {
 
 @media (min-width: 992px) {
 
-    .col-lg-flex-1 { 
+    .col-lg-flex-1 {
         flex: 1 !important;
     }
 
-    .col-lg-flex-2 { 
+    .col-lg-flex-2 {
         flex: 2 !important;
     }
 
@@ -1163,7 +1175,7 @@ modal .content {
 
 @media (max-width: 480px) {
 
-    .main_girl_smallScreen { 
+    .main_girl_smallScreen {
               height: 380px;
         width: 100%;
         object-fit: cover;
@@ -1527,7 +1539,7 @@ modal .content {
 /* Media for the  */
 @media (max-width: 992px) {
 
-    .iframe_main_page { 
+    .iframe_main_page {
         width: 90%;
         margin: 30px auto 20px;
         display: flex;
@@ -1575,7 +1587,7 @@ modal .content {
         display: none;
     }
 
-    /* .custom-list { 
+    /* .custom-list {
         display: grid;
     grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
     } */
@@ -1804,8 +1816,8 @@ audio::-webkit-media-controls-panel {
     display: block;
 }
 
-@media (max-width: 1200px) { 
-    .smallScreenRemove { 
+@media (max-width: 1200px) {
+    .smallScreenRemove {
         display: none;
       }
 }
@@ -1817,7 +1829,7 @@ audio::-webkit-media-controls-panel {
         object-fit: cover;
     }
 
-  
+
 
 }
 
@@ -1828,7 +1840,7 @@ audio::-webkit-media-controls-panel {
         object-fit: cover;
     }
 
-    .container-format { 
+    .container-format {
         max-width: 1140px !important;
     }
 
@@ -2091,11 +2103,1566 @@ audio::-webkit-media-controls-panel {
   overflow: hidden;
 }
 
-.sl-nav { 
+.sl-nav {
         background: white;
     width: fit-content;
     padding: 12px;
     border-radius: 27px;
     line-height: 32px;
     margin: 0 auto;
+}
+
+
+   /* ========================================
+           TREATMENT IN TURKEY
+        ======================================== */
+
+        .turkey-page * {
+            box-sizing: border-box;
+        }
+
+        .turkey-page h1,
+        .turkey-page h2,
+        .turkey-page h3,
+        .turkey-page h4 {
+            color: var(--turkey-dark);
+        }
+
+        .turkey-page p {
+            line-height: 1.85;
+        }
+
+        /* ========================================
+           SECTION COMMON
+        ======================================== */
+
+        .turkey-section {
+            padding: 100px 0;
+        }
+
+        .turkey-section--soft {
+            background: var(--turkey-soft);
+        }
+
+        .turkey-section__label {
+            display: inline-flex;
+            align-items: center;
+            gap: 12px;
+            color: var(--turkey-primary);
+            font-size: 13px;
+            font-weight: 800;
+            letter-spacing: 1.8px;
+            text-transform: uppercase;
+            margin-bottom: 20px;
+        }
+
+        .turkey-section__label::before {
+            content: "";
+            width: 28px;
+            height: 2px;
+            background: var(--turkey-primary);
+        }
+
+        .turkey-section__title {
+            font-size: clamp(30px, 3.5vw, 48px);
+            line-height: 1.2;
+            font-weight: 800;
+            margin-bottom: 25px;
+        }
+
+        .turkey-section__description {
+            font-size: 17px;
+            line-height: 1.9;
+            margin-bottom: 25px;
+        }
+
+        .turkey-section__description:last-child {
+            margin-bottom: 0;
+        }
+
+        /* ========================================
+           HERO
+        ======================================== */
+
+        .turkey-hero {
+            position: relative;
+            background: #f7f5f2;
+            padding: 105px 0;
+            overflow: hidden;
+        }
+
+        .turkey-hero::before {
+            content: "";
+            position: absolute;
+            width: 550px;
+            height: 550px;
+            right: -200px;
+            top: -250px;
+            border-radius: 50%;
+            background: rgba(255, 85, 40, 0.06);
+        }
+
+        .turkey-hero__eyebrow {
+            display: inline-block;
+            color: var(--turkey-primary);
+            font-size: 14px;
+            font-weight: 800;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            margin-bottom: 22px;
+        }
+
+        .turkey-hero h1 {
+            font-size: clamp(38px, 4.2vw, 64px);
+            line-height: 1.12;
+            font-weight: 800;
+            margin-bottom: 28px;
+        }
+
+        .turkey-hero h1 span {
+            color: var(--turkey-primary);
+        }
+
+        .turkey-hero__description {
+            font-size: 18px;
+            line-height: 1.85;
+            max-width: 650px;
+            margin-bottom: 35px;
+        }
+
+        .turkey-hero__actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .turkey-hero__media {
+            position: relative;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 25px 70px rgba(0, 0, 0, 0.12);
+        }
+
+        .turkey-hero__media img {
+            width: 100%;
+            height: 640px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .turkey-hero__badge {
+            position: absolute;
+            left: 25px;
+            bottom: 25px;
+            background: var(--turkey-white);
+            border-radius: 14px;
+            padding: 18px 24px;
+            box-shadow: 0 10px 35px rgba(0, 0, 0, 0.08);
+        }
+
+        .turkey-hero__badge strong {
+            display: block;
+            color: var(--turkey-dark);
+            font-size: 18px;
+            margin-bottom: 4px;
+        }
+
+        .turkey-hero__badge span {
+            font-size: 13px;
+        }
+
+        /* ========================================
+           MEDIA BLOCKS
+        ======================================== */
+
+        .turkey-media {
+            position: relative;
+            border-radius: 22px;
+            overflow: hidden;
+            background: #eee;
+        }
+
+        .turkey-media img {
+            width: 100%;
+            height: 650px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .turkey-media--video {
+            aspect-ratio: 16 / 10;
+            background: #222;
+        }
+
+        .turkey-media--video iframe,
+        .turkey-media--video video {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            display: block;
+        }
+
+        .turkey-media__caption {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            padding: 40px 25px 25px;
+            color: white;
+            background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+        }
+
+        /* ========================================
+           FEATURE LIST
+        ======================================== */
+
+        .turkey-feature-list {
+            list-style: none;
+            padding: 0;
+            margin: 30px 0;
+        }
+
+        .turkey-feature-list li {
+            display: flex;
+            align-items: flex-start;
+            gap: 14px;
+            font-size: 16px;
+            line-height: 1.7;
+            margin-bottom: 17px;
+        }
+
+        .turkey-feature-list li i {
+            flex-shrink: 0;
+            color: var(--turkey-primary);
+            font-size: 19px;
+            margin-top: 5px;
+        }
+
+        /* ========================================
+           TREATMENT SPECIALTIES
+        ======================================== */
+
+        .turkey-specialties {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+            margin-top: 45px;
+        }
+
+        .turkey-specialty {
+            display: flex;
+            align-items: center;
+            gap: 13px;
+            padding: 22px;
+            background: var(--turkey-white);
+            border: 1px solid var(--turkey-border);
+            border-radius: 14px;
+            transition: all 0.3s ease;
+        }
+
+        .turkey-specialty:hover {
+            transform: translateY(-3px);
+            border-color: var(--turkey-primary);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.04);
+        }
+
+        .turkey-specialty i {
+            color: var(--turkey-primary);
+            font-size: 22px;
+            flex-shrink: 0;
+        }
+
+        .turkey-specialty span {
+            color: var(--turkey-dark);
+            font-size: 15px;
+            font-weight: 700;
+            line-height: 1.5;
+        }
+
+        /* ========================================
+           PREPARATION STEPS
+        ======================================== */
+
+        .turkey-step {
+            position: relative;
+            background: var(--turkey-white);
+            border: 1px solid var(--turkey-border);
+            border-radius: 18px;
+            padding: 35px;
+            height: 100%;
+        }
+
+        .turkey-step__number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 55px;
+            height: 55px;
+            background: var(--turkey-soft);
+            color: var(--turkey-primary);
+            border-radius: 14px;
+            font-size: 22px;
+            font-weight: 800;
+            margin-bottom: 25px;
+        }
+
+        .turkey-step h3 {
+            font-size: 23px;
+            font-weight: 800;
+            margin-bottom: 15px;
+        }
+
+        .turkey-step p {
+            font-size: 15px;
+            margin-bottom: 0;
+        }
+
+        /* ========================================
+           QUOTE
+        ======================================== */
+
+        .turkey-quote {
+            padding: 65px 30px;
+            text-align: center;
+            background: var(--turkey-dark);
+        }
+
+        .turkey-quote blockquote {
+            max-width: 900px;
+            margin: 0 auto 20px;
+            color: white;
+            font-size: clamp(25px, 3vw, 40px);
+            font-weight: 700;
+            line-height: 1.4;
+        }
+
+        .turkey-quote cite {
+            color: #ffc0aa;
+            font-style: normal;
+            font-size: 16px;
+        }
+
+        /* ========================================
+           CONTACT CTA
+        ======================================== */
+
+        .turkey-contact {
+            padding: 90px 0;
+            background: var(--turkey-soft);
+        }
+
+        .turkey-contact__box {
+            background: var(--turkey-white);
+            border: 1px solid var(--turkey-border);
+            border-radius: 24px;
+            padding: 55px;
+            text-align: center;
+        }
+
+        .turkey-contact__box h2 {
+            font-size: clamp(30px, 3vw, 43px);
+            font-weight: 800;
+            margin-bottom: 20px;
+        }
+
+        .turkey-contact__box p {
+            max-width: 700px;
+            margin: 0 auto 30px;
+            font-size: 17px;
+        }
+
+        .turkey-contact__details {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 18px 35px;
+            margin-bottom: 35px;
+        }
+
+        .turkey-contact__details a {
+            color: var(--turkey-dark);
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .turkey-contact__details a:hover {
+            color: var(--turkey-primary);
+        }
+
+        /* ========================================
+           RESPONSIVE
+        ======================================== */
+
+        @media (max-width: 991px) {
+            .turkey-section {
+                padding: 70px 0;
+            }
+
+            .turkey-hero {
+                padding: 70px 0;
+            }
+
+            .turkey-hero__media {
+                margin-top: 40px;
+            }
+
+            .turkey-specialties {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .turkey-media img {
+                height: 400px;
+            }
+        }
+
+        @media (max-width: 767px) {
+            .turkey-section {
+                padding: 55px 0;
+            }
+
+            .turkey-hero {
+                padding: 120px 0;
+            }
+
+            .turkey-hero__media img {
+                height: 380px;
+            }
+
+            .turkey-hero__badge {
+                left: 15px;
+                bottom: 15px;
+                padding: 14px 18px;
+            }
+
+            .turkey-media img {
+                height: 300px;
+            }
+
+            .turkey-specialties {
+                grid-template-columns: 1fr;
+            }
+
+            .turkey-step {
+                padding: 28px;
+            }
+
+            .turkey-contact__box {
+                padding: 35px 22px;
+            }
+
+            .turkey-quote {
+                padding: 55px 20px;
+            }
+        }
+
+
+
+/* ==========================================
+   HOMECARE PAGE VARIABLES
+========================================== */
+
+.homecare-page {
+    --homecare-primary: var(--careox-secondary, #2869aa);
+    --homecare-light-blue: var(--careox-base, #66acf2);
+    --homecare-dark: var(--careox-black, #122f2a);
+    --homecare-text: var(--careox-text, #636363);
+    --homecare-soft: var(--careox-gray, #f1f6f7);
+    --homecare-border: var(--careox-border-color, #dddddd);
+    --homecare-white: #ffffff;
+
+    color: var(--homecare-text);
+}
+
+.homecare-page *,
+.homecare-page *::before,
+.homecare-page *::after {
+    box-sizing: border-box;
+}
+
+.homecare-page h1,
+.homecare-page h2,
+.homecare-page h3,
+.homecare-page h4 {
+    color: var(--homecare-dark);
+}
+
+.homecare-page p {
+    line-height: 1.85;
+}
+
+.homecare-page a {
+    transition: all 0.3s ease;
+}
+
+
+/* ==========================================
+   COMMON SECTION STYLES
+========================================== */
+
+.homecare-section {
+    padding: 105px 0;
+}
+
+.homecare-section--soft {
+    background: var(--homecare-soft);
+}
+
+.homecare-section__heading {
+    max-width: 800px;
+    margin: 0 auto 55px;
+}
+
+.homecare-section__label {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--homecare-primary);
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.homecare-section__label::before {
+    content: "";
+    width: 27px;
+    height: 2px;
+    background: var(--homecare-primary);
+}
+
+.homecare-section__title {
+    font-size: clamp(30px, 3.4vw, 48px);
+    line-height: 1.2;
+    font-weight: 800;
+    margin-bottom: 25px;
+}
+
+.homecare-section__text {
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.homecare-section__text:last-child {
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   HERO
+========================================== */
+
+.homecare-hero {
+    position: relative;
+    padding: 105px 0;
+    background: linear-gradient(
+        120deg,
+        #f1f6f7 0%,
+        #ffffff 65%,
+        #eaf4ff 100%
+    );
+    overflow: hidden;
+}
+
+.homecare-hero::before {
+    content: "";
+    position: absolute;
+    width: 550px;
+    height: 550px;
+    top: -250px;
+    right: -180px;
+    background: rgba(102, 172, 242, 0.09);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.homecare-hero__content {
+    position: relative;
+    z-index: 2;
+}
+
+.homecare-eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.3px;
+    color: var(--homecare-primary);
+    margin-bottom: 25px;
+}
+
+.homecare-eyebrow i {
+    font-size: 17px;
+}
+
+.homecare-hero__title {
+    font-size: clamp(38px, 3.8vw, 64px);
+    font-weight: 800;
+    line-height: 1.13;
+    letter-spacing: -1px;
+    margin-bottom: 28px;
+}
+
+.homecare-hero__title span {
+    color: var(--homecare-primary);
+}
+
+.homecare-hero__text {
+    font-size: 18px;
+    line-height: 1.85;
+    max-width: 610px;
+    margin-bottom: 32px;
+}
+
+.homecare-hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 18px;
+}
+
+.homecare-outline-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 15px 22px;
+    color: var(--homecare-dark);
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: none;
+    border: 1px solid var(--homecare-border);
+    border-radius: 8px;
+}
+
+.homecare-outline-btn:hover {
+    color: var(--homecare-primary);
+    border-color: var(--homecare-primary);
+}
+
+.homecare-hero__note {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 28px;
+    font-size: 13px;
+    color: var(--homecare-text);
+}
+
+.homecare-hero__note i {
+    color: var(--homecare-primary);
+}
+
+.homecare-hero__visual {
+    position: relative;
+    padding-bottom: 25px;
+}
+
+.homecare-hero__image {
+    display: block;
+    width: 100%;
+    height: 610px;
+    object-fit: cover;
+    border-radius: 24px;
+    box-shadow: 0 25px 65px rgba(18, 47, 42, 0.12);
+}
+
+.homecare-hero__floating {
+    position: absolute;
+    left: -30px;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 18px 24px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 12px 40px rgba(18, 47, 42, 0.12);
+    max-width: 340px;
+}
+
+.homecare-hero__floating-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 52px;
+    height: 52px;
+    flex-shrink: 0;
+    color: white;
+    background: var(--homecare-primary);
+    border-radius: 12px;
+    font-size: 22px;
+}
+
+.homecare-hero__floating strong {
+    display: block;
+    font-size: 17px;
+    color: var(--homecare-dark);
+}
+
+.homecare-hero__floating span {
+    display: block;
+    font-size: 13px;
+    margin-top: 4px;
+}
+
+
+/* ==========================================
+   IMAGE BLOCKS
+========================================== */
+
+.homecare-media {
+    position: relative;
+    border-radius: 22px;
+    overflow: hidden;
+    background: #e8eff4;
+}
+
+.homecare-media img {
+    display: block;
+    width: 100%;
+    height: 620px;
+    object-fit: cover;
+    transition: transform 0.6s ease;
+}
+
+.homecare-media:hover img {
+    transform: scale(1.035);
+}
+
+.homecare-media__accent {
+    position: absolute;
+    width: 120px;
+    height: 8px;
+    background: var(--homecare-light-blue);
+    bottom: 0;
+    left: 0;
+}
+
+.homecare-text-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--homecare-primary);
+    font-size: 16px;
+    font-weight: 800;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.homecare-text-link:hover {
+    color: var(--homecare-dark);
+    gap: 18px;
+}
+
+
+/* ==========================================
+   SERVICES
+========================================== */
+
+.homecare-service {
+    position: relative;
+    height: 100%;
+    padding: 38px 32px;
+    background: var(--homecare-white);
+    border: 1px solid var(--homecare-border);
+    border-radius: 18px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.homecare-service:hover {
+    transform: translateY(-5px);
+    border-color: var(--homecare-light-blue);
+    box-shadow: 0 18px 45px rgba(18, 47, 42, 0.07);
+}
+
+.homecare-service__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 68px;
+    height: 68px;
+    margin-bottom: 26px;
+    background: #eaf4ff;
+    border-radius: 15px;
+    color: var(--homecare-primary);
+    font-size: 27px;
+}
+
+.homecare-service h3 {
+    font-size: 23px;
+    font-weight: 800;
+    line-height: 1.3;
+    margin-bottom: 15px;
+}
+
+.homecare-service p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 0;
+    position: relative;
+    z-index: 2;
+}
+
+.homecare-service__number {
+    position: absolute;
+    right: 20px;
+    bottom: 5px;
+    font-size: 75px;
+    font-weight: 900;
+    color: rgba(40, 105, 170, 0.045);
+    line-height: 1;
+}
+
+.homecare-services__note {
+    margin: 35px 0 0;
+    font-size: 14px;
+}
+
+
+/* ==========================================
+   STEPS
+========================================== */
+
+.homecare-steps {
+    margin-top: 35px;
+}
+
+.homecare-step {
+    display: flex;
+    gap: 20px;
+    padding: 20px 0;
+    border-bottom: 1px solid var(--homecare-border);
+}
+
+.homecare-step:last-child {
+    border-bottom: none;
+}
+
+.homecare-step__number {
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 55px;
+    height: 55px;
+    background: #eaf4ff;
+    color: var(--homecare-primary);
+    border-radius: 13px;
+    font-size: 19px;
+    font-weight: 800;
+}
+
+.homecare-step h3 {
+    font-size: 21px;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+
+.homecare-step p {
+    font-size: 15px;
+    line-height: 1.75;
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   VIDEO
+========================================== */
+
+.homecare-video {
+    overflow: hidden;
+    border-radius: 22px;
+    background: #152b3b;
+    aspect-ratio: 16 / 10;
+    box-shadow: 0 20px 55px rgba(18, 47, 42, 0.12);
+}
+
+.homecare-video video,
+.homecare-video iframe {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+    object-fit: cover;
+}
+
+
+/* ==========================================
+   CHECKLIST
+========================================== */
+
+.homecare-checklist {
+    list-style: none;
+    margin: 30px 0 0;
+    padding: 0;
+}
+
+.homecare-checklist li {
+    display: flex;
+    align-items: flex-start;
+    gap: 14px;
+    padding: 12px 0;
+    font-size: 16px;
+    line-height: 1.7;
+    color: var(--homecare-dark);
+}
+
+.homecare-checklist li i {
+    color: var(--homecare-primary);
+    margin-top: 5px;
+    flex-shrink: 0;
+}
+
+
+/* ==========================================
+   INFO BOX
+========================================== */
+
+.homecare-info-box {
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 24px;
+    margin-top: 28px;
+    border-left: 4px solid var(--homecare-primary);
+    background: white;
+    border-radius: 0 12px 12px 0;
+}
+
+.homecare-info-box > i {
+    color: var(--homecare-primary);
+    font-size: 21px;
+    margin-top: 5px;
+}
+
+.homecare-info-box p {
+    font-size: 15px;
+    line-height: 1.75;
+    margin-bottom: 0;
+}
+
+
+/* ==========================================
+   FAQ
+========================================== */
+
+.homecare-faq {
+    max-width: 920px;
+    margin: 0 auto;
+}
+
+.homecare-faq__item {
+    background: white;
+    border: 1px solid var(--homecare-border);
+    border-radius: 13px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.homecare-faq__item[open] {
+    border-color: var(--homecare-light-blue);
+    box-shadow: 0 8px 25px rgba(18, 47, 42, 0.04);
+}
+
+.homecare-faq__item summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 24px 28px;
+    cursor: pointer;
+    color: var(--homecare-dark);
+    font-size: 17px;
+    font-weight: 800;
+    list-style: none;
+}
+
+.homecare-faq__item summary::-webkit-details-marker {
+    display: none;
+}
+
+.homecare-faq__item summary i {
+    color: var(--homecare-primary);
+    transition: transform 0.3s ease;
+}
+
+.homecare-faq__item[open] summary i {
+    transform: rotate(45deg);
+}
+
+.homecare-faq__answer {
+    padding: 0 28px 25px;
+    font-size: 15px;
+    line-height: 1.85;
+}
+
+
+/* ==========================================
+   FINAL CTA
+========================================== */
+
+.homecare-cta {
+    padding: 95px 0;
+    background: var(--homecare-soft);
+}
+
+.homecare-cta__box {
+    position: relative;
+    padding: 65px;
+    background: var(--homecare-dark);
+    border-radius: 24px;
+    overflow: hidden;
+}
+
+.homecare-cta__decoration {
+    position: absolute;
+    width: 380px;
+    height: 380px;
+    right: -150px;
+    top: -160px;
+    border: 70px solid rgba(102, 172, 242, 0.12);
+    border-radius: 50%;
+    pointer-events: none;
+}
+
+.homecare-cta__label {
+    display: block;
+    color: #9bceff;
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 1.5px;
+    margin-bottom: 20px;
+}
+
+.homecare-cta__box h2 {
+    color: white;
+    font-size: clamp(30px, 3.4vw, 45px);
+    font-weight: 800;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.homecare-cta__box p {
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 17px;
+    line-height: 1.8;
+    max-width: 750px;
+    margin-bottom: 0;
+}
+
+.homecare-cta__phone {
+    margin-top: 22px;
+}
+
+.homecare-cta__phone a {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    color: white;
+    font-size: 19px;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.homecare-cta__phone a:hover {
+    color: #9bceff;
+}
+
+
+/* ==========================================
+   RESPONSIVE
+========================================== */
+
+@media (max-width: 1199px) {
+    .homecare-hero__floating {
+        left: 15px;
+    }
+}
+
+@media (max-width: 991px) {
+    .homecare-section {
+        padding: 75px 0;
+    }
+
+    .homecare-hero {
+        padding: 75px 0;
+    }
+
+    .homecare-hero__image {
+        height: 470px;
+    }
+
+    .homecare-media img {
+        height: 420px;
+    }
+
+    .homecare-cta__box {
+        padding: 45px;
+    }
+}
+
+@media (max-width: 767px) {
+    .homecare-section {
+        padding: 55px 0;
+    }
+
+    .homecare-hero {
+        padding: 120px 0;
+    }
+
+    .homecare-hero__title {
+        letter-spacing: -0.5px;
+    }
+
+    .homecare-hero__text {
+        font-size: 16px;
+    }
+
+    .homecare-hero__actions {
+        align-items: stretch;
+        flex-direction: column;
+    }
+
+    .homecare-hero__actions .careox-btn,
+    .homecare-outline-btn {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .homecare-hero__image {
+        height: 360px;
+    }
+
+    .homecare-hero__floating {
+        left: 12px;
+        right: 12px;
+        max-width: none;
+    }
+
+    .homecare-media img {
+        height: 320px;
+    }
+
+    .homecare-service {
+        padding: 30px 25px;
+    }
+
+    .homecare-service h3 {
+        font-size: 21px;
+    }
+
+    .homecare-step {
+        gap: 15px;
+    }
+
+    .homecare-step__number {
+        width: 48px;
+        height: 48px;
+    }
+
+    .homecare-step h3 {
+        font-size: 19px;
+    }
+
+    .homecare-faq__item summary {
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .homecare-faq__answer {
+        padding: 0 20px 22px;
+    }
+
+    .homecare-cta {
+        padding: 60px 0;
+    }
+
+    .homecare-cta__box {
+        padding: 35px 25px;
+    }
+
+    .homecare-cta__box p {
+        font-size: 15px;
+    }
+
+    .homecare-cta__phone a {
+        font-size: 17px;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .homecare-page *,
+    .homecare-page *::before,
+    .homecare-page *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+    }
+}
+
+
+
+/* ==========================================
+   HOMECARE PRICING SECTION
+========================================== */
+
+.homecare-pricing {
+    scroll-margin-top: 100px;
+}
+
+/* Doctor information */
+
+.homecare-pricing__doctor {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    margin: 0 0 12px;
+    font-size: 16px;
+}
+
+.homecare-pricing__doctor strong {
+    color: var(--homecare-dark);
+    font-size: 21px;
+}
+
+/* Currency label */
+
+.homecare-pricing__currency {
+    display: inline-flex;
+    align-items: center;
+    gap: 9px;
+    padding: 10px 17px;
+    border-radius: 999px;
+    background: #fff;
+    color: var(--homecare-primary);
+    font-size: 14px;
+    font-weight: 700;
+    margin: 10px 0 0;
+}
+
+/* ==========================================
+   CATEGORY NAVIGATION
+========================================== */
+
+.homecare-pricing__navigation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 9px;
+    margin: 0 0 42px;
+}
+
+.homecare-pricing__navigation a {
+    display: inline-flex;
+    padding: 10px 14px;
+    background: #fff;
+    border: 1px solid var(--homecare-border);
+    border-radius: 8px;
+    color: var(--homecare-dark);
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 1.4;
+}
+
+.homecare-pricing__navigation a:hover,
+.homecare-pricing__navigation a:focus-visible {
+    background: var(--homecare-primary);
+    color: #fff;
+    border-color: var(--homecare-primary);
+}
+
+/* ==========================================
+   PRICING GROUPS
+========================================== */
+
+.homecare-pricing__group {
+    background: #fff;
+    border: 1px solid var(--homecare-border);
+    border-radius: 16px;
+    overflow: hidden;
+    margin-bottom: 28px;
+    scroll-margin-top: 110px;
+    box-shadow: 0 10px 30px rgba(16, 50, 70, 0.035);
+}
+
+.homecare-pricing__group-header {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    padding: 25px 30px;
+    border-bottom: 1px solid var(--homecare-border);
+}
+
+.homecare-pricing__group-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 52px;
+    width: 52px;
+    height: 52px;
+    background: var(--homecare-soft);
+    border-radius: 12px;
+    color: var(--homecare-primary);
+    font-size: 21px;
+}
+
+.homecare-pricing__group-number {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--homecare-primary);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+
+.homecare-pricing__group-header h3 {
+    margin: 0;
+    color: var(--homecare-dark);
+    font-size: clamp(19px, 2vw, 25px);
+    font-weight: 800;
+    line-height: 1.35;
+}
+
+/* ==========================================
+   PRICING TABLES
+========================================== */
+
+.homecare-pricing__table-wrap {
+    width: 100%;
+    /* overflow-x: auto; */
+}
+
+.homecare-pricing__table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin: 0;
+}
+
+.homecare-pricing__table thead {
+    background: #f6f9fb;
+}
+
+.homecare-pricing__table th,
+.homecare-pricing__table td {
+    padding: 16px 30px;
+    border-bottom: 1px solid #e9eef1;
+    text-align: left;
+    vertical-align: middle;
+    font-size: 15px;
+    line-height: 1.55;
+}
+
+.homecare-pricing__table thead th {
+    color: var(--homecare-dark);
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 800;
+}
+
+.homecare-pricing__table tbody th {
+    color: var(--homecare-text);
+    font-weight: 500;
+}
+
+/* Price column */
+
+.homecare-pricing__table td:last-child,
+.homecare-pricing__table thead th:last-child {
+    width: 31%;
+    text-align: right;
+}
+
+.homecare-pricing__table tbody td {
+    color: var(--homecare-primary);
+    font-weight: 800;
+    font-variant-numeric: tabular-nums;
+}
+
+.homecare-pricing__table tbody tr:last-child th,
+.homecare-pricing__table tbody tr:last-child td {
+    border-bottom: 0;
+}
+
+.homecare-pricing__table tbody tr:hover {
+    background: #f8fbfd;
+}
+
+/* ==========================================
+   MEDICAL NOTES
+========================================== */
+
+.homecare-pricing__notes {
+    padding: 20px 30px 24px;
+    border-top: 1px solid var(--homecare-border);
+    background: #f8fafb;
+}
+
+.homecare-pricing__notes h4 {
+    color: var(--homecare-dark);
+    font-size: 16px;
+    font-weight: 800;
+    margin: 0 0 12px;
+}
+
+.homecare-pricing__notes p {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 0 0 10px;
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.homecare-pricing__notes p:last-child {
+    margin-bottom: 0;
+}
+
+.homecare-pricing__notes p i {
+    color: var(--homecare-primary);
+    flex: 0 0 auto;
+    margin-top: 5px;
+}
+
+/* ==========================================
+   GENERAL TERMS
+========================================== */
+
+.homecare-pricing__terms {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0;
+}
+
+.homecare-pricing__term {
+    padding: 25px 30px;
+    border-bottom: 1px solid var(--homecare-border);
+}
+
+.homecare-pricing__term:nth-child(odd) {
+    border-right: 1px solid var(--homecare-border);
+}
+
+.homecare-pricing__term h4 {
+    font-size: 17px;
+    font-weight: 800;
+    color: var(--homecare-dark);
+    margin: 0 0 9px;
+}
+
+.homecare-pricing__term p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* ==========================================
+   CONTACT INFORMATION
+========================================== */
+
+.homecare-pricing__contact {
+    padding: 25px 30px 30px;
+}
+
+.homecare-pricing__contact p {
+    margin: 0 0 16px;
+}
+
+.homecare-pricing__contact p:last-child {
+    margin-bottom: 0;
+}
+
+.homecare-pricing__phone {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 9px;
+    color: var(--homecare-dark);
+}
+
+.homecare-pricing__phone i {
+    color: var(--homecare-primary);
+}
+
+/* ==========================================
+   MOBILE RESPONSIVENESS
+========================================== */
+
+@media (max-width: 767px) {
+
+    .homecare-pricing__navigation {
+        justify-content: flex-start;
+    }
+
+    .homecare-pricing__navigation a {
+        font-size: 12px;
+    }
+
+    .homecare-pricing__group-header {
+        padding: 19px 17px;
+        gap: 12px;
+    }
+
+    .homecare-pricing__group-icon {
+        flex-basis: 42px;
+        width: 42px;
+        height: 42px;
+        font-size: 17px;
+    }
+
+    .homecare-pricing__table th,
+    .homecare-pricing__table td {
+        padding: 14px;
+        font-size: 13px;
+    }
+
+    .homecare-pricing__table td:last-child,
+    .homecare-pricing__table thead th:last-child {
+        width: 35%;
+    }
+
+    .homecare-pricing__notes,
+    .homecare-pricing__contact {
+        padding: 18px 17px;
+    }
+
+    .homecare-pricing__terms {
+        grid-template-columns: 1fr;
+    }
+
+    .homecare-pricing__term {
+        padding: 20px 17px;
+        border-right: 0 !important;
+    }
+}
+
+/* ==========================================
+   ACCESSIBILITY
+========================================== */
+
+@media (prefers-reduced-motion: no-preference) {
+
+    .homecare-pricing__navigation a {
+        transition:
+            background-color 0.2s ease,
+            color 0.2s ease;
+    }
+}
+
+
+.video-dr-mollov {
+    height: 700px;
+    width: 100%;
+    border-radius: 30px;
+}
+
+@media (max-width: 767px) {
+    .video-dr-mollov {
+        height: 515px;
+    }
 }
