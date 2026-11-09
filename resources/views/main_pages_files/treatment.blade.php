@@ -69,15 +69,15 @@
 
                         <div class="turkey-hero__actions">
 
-                                <a href="" data-cal-link="dr-yulian-mollov/30min" data-cal-namespace="30min"
-                                    data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
-                                    class="careox-btn">
+                            <a href="" data-cal-link="dr-yulian-mollov/30min" data-cal-namespace="30min"
+                                data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
+                                class="careox-btn">
 
-                                    <span>
-                                        <i class="fa-solid fa-calendar-check"></i>
-                                        Запази си час
-                                    </span>
-                                </a>
+                                <span>
+                                    <i class="fa-solid fa-calendar-check"></i>
+                                    Запази си час
+                                </span>
+                            </a>
                         </div>
                     </div>
 
@@ -299,11 +299,7 @@
                         <div class="turkey-media">
 
                             <!-- Replace with Dr. Mollov's video -->
-                            <video
-                               class="video-dr-mollov"
-                                controls
-                                preload="none"
-                                playsinline
+                            <video class="video-dr-mollov" controls preload="none" playsinline
                                 poster="/assets/images/welcome/molov-3.jpg">
                                 <source src="/assets/videos/whois-dr-mollov.mov" type="video/mp4">
                                 Вашият браузър не поддържа видео.
@@ -390,179 +386,152 @@
         </section>
 
 
-<section class="videos-section py-5">
-    <div class="container">
 
-        <div class="videos-heading text-center mb-5">
-            <span class="videos-eyebrow">ВИДЕО СЪДЪРЖАНИЕ</span>
-            <h2>Разгледайте видеа на мои пациенти</h2>
-            <p>
-                Научете повече чрез нашата колекция от видеа.
-            </p>
-        </div>
+        <section class="videos-section py-5">
+            <div class="container">
 
-        <div class="row g-4">
+                <div class="videos-heading text-center mb-5">
+                    <span class="videos-eyebrow">ВИДЕО СЪДЪРЖАНИЕ</span>
+                    <h2>Разгледайте видеа на мои пациенти</h2>
+                    <p>
+                        Научете повече чрез нашата колекция от видеа.
+                    </p>
+                </div>
 
-            <!-- Video 1 -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="video-card">
-                    <div class="video-card__media">
-                        <video
-                            controls
-                            preload="none"
-                            playsinline
-                            poster="/assets/images/welcome/molov-3.jpg">
-                            <source
-                                src="/assets/videos/whois-dr-mollov.mov"
-                                type="video/quicktime">
-                            Вашият браузър не поддържа видео.
-                        </video>
+                <div class="row g-4">
+
+
+                <!-- Video 2 -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="video-card">
+                            <div class="video-card__media">
+                                <video controls preload="none" playsinline
+                                    poster="/assets/images/welcome/molov-3.jpg">
+                                    <source src="/assets/videos/Ина част 1 - 22.07 РЕДАКТИРАНО.mov"
+                                        type="video/quicktime">
+                                    Вашият браузър не поддържа видео.
+                                </video>
+                            </div>
+
+                            <div class="video-card__content">
+                                <h3>Нашият подход</h3>
+                                <p>
+                                    Научете повече за нашата работа
+                                    и философия.
+                                </p>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="video-card__content">
-                        <h3>Кой е д-р Моллов?</h3>
-                        <p>
-                            Запознайте се с д-р Моллов и неговата
-                            професионална дейност.
-                        </p>
+                    <!-- Video 3 -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="video-card">
+                            <div class="video-card__media">
+                                <video controls preload="none" playsinline
+                                    poster="/assets/images/welcome/molov-3.jpg">
+                                    <source src="/assets/videos/Ина част 2 - 8.08.mov" type="video/quicktime">
+                                    Вашият браузър не поддържа видео.
+                                </video>
+                            </div>
+
+                            <div class="video-card__content">
+                                <h3>Полезни съвети</h3>
+                                <p>
+                                    Практична информация и полезни
+                                    съвети от специалист.
+                                </p>
+                            </div>
+                        </div>
                     </div>
+
+                    <!-- Video 4 -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="video-card">
+                            <div class="video-card__media">
+                                <video controls preload="none" playsinline
+                                    poster="/assets/images/welcome/molov-3.jpg">
+                                    <source src="/assets/videos/Ина- част 3 - 26.08.mov" type="video/quicktime">
+                                    Вашият браузър не поддържа видео.
+                                </video>
+                            </div>
+
+                            <div class="video-card__content">
+                                <h3>Кой е д-р Моллов?</h3>
+                                <p>
+                                    Запознайте се с д-р Моллов и неговата
+                                    професионална дейност.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video 5 -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="video-card">
+                            <div class="video-card__media">
+                                <video controls preload="none" playsinline
+                                    poster="/assets/images/welcome/molov-3.jpg">
+                                    <source src="/assets/videos/Катя - част 3 - 17.08.mov" type="video/quicktime">
+                                    Вашият браузър не поддържа видео.
+                                </video>
+                            </div>
+
+                            <div class="video-card__content">
+                                <h3>Нашият подход</h3>
+                                <p>
+                                    Научете повече за нашата работа
+                                    и философия.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video 6 -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="video-card">
+                            <div class="video-card__media">
+                                <video controls preload="none" playsinline
+                                    poster="/assets/images/welcome/molov-3.jpg">
+                                    <source src="/assets/videos/Катя част 1 - 13.07.mov" type="video/quicktime">
+                                    Вашият браузър не поддържа видео.
+                                </video>
+                            </div>
+
+                            <div class="video-card__content">
+                                <h3>Полезни съвети</h3>
+                                <p>
+                                    Практична информация и полезни
+                                    съвети от специалист.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Video 7 -->
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="video-card">
+                            <div class="video-card__media">
+                                <video controls preload="none" playsinline
+                                    poster="/assets/images/welcome/molov-3.jpg">
+                                    <source src="/assets/videos/Катя част 2 - 30.07.mov" type="video/quicktime">
+                                    Вашият браузър не поддържа видео.
+                                </video>
+                            </div>
+
+                            <div class="video-card__content">
+                                <h3>Полезни съвети</h3>
+                                <p>
+                                    Практична информация и полезни
+                                    съвети от специалист.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
+        </section>
 
-            <!-- Video 2 -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="video-card">
-                    <div class="video-card__media">
-                        <video
-                            controls
-                            preload="none"
-                            playsinline
-                            poster="/assets/images/welcome/video-2.jpg">
-                            <source
-                                src="/assets/videos/video-2.mp4"
-                                type="video/mp4">
-                            Вашият браузър не поддържа видео.
-                        </video>
-                    </div>
-
-                    <div class="video-card__content">
-                        <h3>Нашият подход</h3>
-                        <p>
-                            Научете повече за нашата работа
-                            и философия.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Video 3 -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="video-card">
-                    <div class="video-card__media">
-                        <video
-                            controls
-                            preload="none"
-                            playsinline
-                            poster="/assets/images/welcome/video-3.jpg">
-                            <source
-                                src="/assets/videos/video-3.mp4"
-                                type="video/mp4">
-                            Вашият браузър не поддържа видео.
-                        </video>
-                    </div>
-
-                    <div class="video-card__content">
-                        <h3>Полезни съвети</h3>
-                        <p>
-                            Практична информация и полезни
-                            съвети от специалист.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-                  <!-- Video 1 -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="video-card">
-                    <div class="video-card__media">
-                        <video
-                            controls
-                            preload="none"
-                            playsinline
-                            poster="/assets/images/welcome/molov-3.jpg">
-                            <source
-                                src="/assets/videos/whois-dr-mollov.mov"
-                                type="video/quicktime">
-                            Вашият браузър не поддържа видео.
-                        </video>
-                    </div>
-
-                    <div class="video-card__content">
-                        <h3>Кой е д-р Моллов?</h3>
-                        <p>
-                            Запознайте се с д-р Моллов и неговата
-                            професионална дейност.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Video 2 -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="video-card">
-                    <div class="video-card__media">
-                        <video
-                            controls
-                            preload="none"
-                            playsinline
-                            poster="/assets/images/welcome/video-2.jpg">
-                            <source
-                                src="/assets/videos/video-2.mp4"
-                                type="video/mp4">
-                            Вашият браузър не поддържа видео.
-                        </video>
-                    </div>
-
-                    <div class="video-card__content">
-                        <h3>Нашият подход</h3>
-                        <p>
-                            Научете повече за нашата работа
-                            и философия.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Video 3 -->
-            <div class="col-lg-4 col-md-6 col-12">
-                <div class="video-card">
-                    <div class="video-card__media">
-                        <video
-                            controls
-                            preload="none"
-                            playsinline
-                            poster="/assets/images/welcome/video-3.jpg">
-                            <source
-                                src="/assets/videos/video-3.mp4"
-                                type="video/mp4">
-                            Вашият браузър не поддържа видео.
-                        </video>
-                    </div>
-
-                    <div class="video-card__content">
-                        <h3>Полезни съвети</h3>
-                        <p>
-                            Практична информация и полезни
-                            съвети от специалист.
-                        </p>
-                    </div>
-                </div>
-            </div>
-
-
-        </div>
-    </div>
-</section>
 
 
 
