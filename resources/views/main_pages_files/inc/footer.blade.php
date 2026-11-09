@@ -77,7 +77,7 @@
                                 <i class="icofont-clock-time"></i>
                             </span>
                             <!-- {{ __('messages.footer_workweek') }} -->
-                            Понеделник – Петък: 8:00 – 18:00
+                            Понеделник – Петък: 9:00 – 17:00
                         </li>
 
                         <li style="--accent-color: #ff5528;">
@@ -92,7 +92,7 @@
                             <span class="footer-widget__info__icon">
                                 <i class="icofont-email"></i>
                             </span>
-                            <a href="mailto:ofis@yulianmollov.bg">ofis@yulianmollov.bg</a>
+                            <a href="mailto:dr.yulian.mollov@gmail.com">dr.yulian.mollov@gmail.com</a>
                         </li>
                     </ul>
 

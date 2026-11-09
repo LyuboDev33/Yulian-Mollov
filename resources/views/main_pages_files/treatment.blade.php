@@ -390,6 +390,182 @@
         </section>
 
 
+<section class="videos-section py-5">
+    <div class="container">
+
+        <div class="videos-heading text-center mb-5">
+            <span class="videos-eyebrow">ВИДЕО СЪДЪРЖАНИЕ</span>
+            <h2>Разгледайте видеа на мои пациенти</h2>
+            <p>
+                Научете повече чрез нашата колекция от видеа.
+            </p>
+        </div>
+
+        <div class="row g-4">
+
+            <!-- Video 1 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="video-card">
+                    <div class="video-card__media">
+                        <video
+                            controls
+                            preload="none"
+                            playsinline
+                            poster="/assets/images/welcome/molov-3.jpg">
+                            <source
+                                src="/assets/videos/whois-dr-mollov.mov"
+                                type="video/quicktime">
+                            Вашият браузър не поддържа видео.
+                        </video>
+                    </div>
+
+                    <div class="video-card__content">
+                        <h3>Кой е д-р Моллов?</h3>
+                        <p>
+                            Запознайте се с д-р Моллов и неговата
+                            професионална дейност.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="video-card">
+                    <div class="video-card__media">
+                        <video
+                            controls
+                            preload="none"
+                            playsinline
+                            poster="/assets/images/welcome/video-2.jpg">
+                            <source
+                                src="/assets/videos/video-2.mp4"
+                                type="video/mp4">
+                            Вашият браузър не поддържа видео.
+                        </video>
+                    </div>
+
+                    <div class="video-card__content">
+                        <h3>Нашият подход</h3>
+                        <p>
+                            Научете повече за нашата работа
+                            и философия.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="video-card">
+                    <div class="video-card__media">
+                        <video
+                            controls
+                            preload="none"
+                            playsinline
+                            poster="/assets/images/welcome/video-3.jpg">
+                            <source
+                                src="/assets/videos/video-3.mp4"
+                                type="video/mp4">
+                            Вашият браузър не поддържа видео.
+                        </video>
+                    </div>
+
+                    <div class="video-card__content">
+                        <h3>Полезни съвети</h3>
+                        <p>
+                            Практична информация и полезни
+                            съвети от специалист.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+                  <!-- Video 1 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="video-card">
+                    <div class="video-card__media">
+                        <video
+                            controls
+                            preload="none"
+                            playsinline
+                            poster="/assets/images/welcome/molov-3.jpg">
+                            <source
+                                src="/assets/videos/whois-dr-mollov.mov"
+                                type="video/quicktime">
+                            Вашият браузър не поддържа видео.
+                        </video>
+                    </div>
+
+                    <div class="video-card__content">
+                        <h3>Кой е д-р Моллов?</h3>
+                        <p>
+                            Запознайте се с д-р Моллов и неговата
+                            професионална дейност.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 2 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="video-card">
+                    <div class="video-card__media">
+                        <video
+                            controls
+                            preload="none"
+                            playsinline
+                            poster="/assets/images/welcome/video-2.jpg">
+                            <source
+                                src="/assets/videos/video-2.mp4"
+                                type="video/mp4">
+                            Вашият браузър не поддържа видео.
+                        </video>
+                    </div>
+
+                    <div class="video-card__content">
+                        <h3>Нашият подход</h3>
+                        <p>
+                            Научете повече за нашата работа
+                            и философия.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Video 3 -->
+            <div class="col-lg-4 col-md-6 col-12">
+                <div class="video-card">
+                    <div class="video-card__media">
+                        <video
+                            controls
+                            preload="none"
+                            playsinline
+                            poster="/assets/images/welcome/video-3.jpg">
+                            <source
+                                src="/assets/videos/video-3.mp4"
+                                type="video/mp4">
+                            Вашият браузър не поддържа видео.
+                        </video>
+                    </div>
+
+                    <div class="video-card__content">
+                        <h3>Полезни съвети</h3>
+                        <p>
+                            Практична информация и полезни
+                            съвети от специалист.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</section>
+
+
+
         <!-- ========================================
              PREPARATION
         ======================================== -->

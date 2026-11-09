@@ -1064,7 +1064,7 @@
 
                         <div class="homecare-media">
 
-                            <img src="/assets/images/welcome/dr-mollov.png"
+                            <img src="/assets/images/welcome/mollov-7.jpg"
                                 alt="Домашни медицински грижи за възрастни пациенти" loading="lazy">
 
                         </div>
