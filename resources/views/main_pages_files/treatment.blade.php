@@ -69,7 +69,9 @@
 
                         <div class="turkey-hero__actions">
 
-                            <a href="" data-cal-link="dr-yulian-mollov/30min" data-cal-namespace="30min"
+                            <a 
+                               data-cal-link="dr-yulian-mollov/30min"
+                                data-cal-namespace="30min"
                                 data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
                                 class="careox-btn">
 

@@ -28,6 +28,7 @@ use Illuminate\Support\Facades\Session;
  Route::get('/', [FrontEndController::class, 'home'] )->name('home');
  Route::get('/treatment',  [FrontEndController::class, 'treatment'])->name('treatment');
  Route::get('/obucheniya', [FrontEndController::class, 'teaching'])->name('teaching');
+ Route::get('/appointment/success', [FrontEndController::class, 'appointment'])->name('appointment');
 
 //  Route::get('/charge', function () {return view('main_pages_files.charge');});
 

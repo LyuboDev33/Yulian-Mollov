@@ -3754,3 +3754,147 @@ audio::-webkit-media-controls-panel {
         transform: none;
     }
 }
+
+/* Appointment confirmation — add after the existing homecare styles */
+.homecare-appointment-success {
+    position: relative;
+    display: flex;
+    align-items: center;
+    min-height: 85vh;
+    padding: 135px 20px 100px;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f1f6f7 0%, #fff 55%, #eaf4ff 100%);
+}
+
+.homecare-appointment-success__decoration {
+    position: absolute;
+    width: 440px;
+    height: 440px;
+    border-radius: 50%;
+    background: rgba(102, 172, 242, .11);
+    filter: blur(65px);
+    pointer-events: none;
+}
+.homecare-appointment-success__decoration--left { top: -200px; left: -190px; }
+.homecare-appointment-success__decoration--right { bottom: -220px; right: -180px; }
+
+.homecare-appointment-success__content {
+    position: relative;
+    z-index: 1;
+    max-width: 760px;
+    margin: 0 auto;
+    text-align: center;
+    animation: homecareAppointmentEnter .75s ease both;
+}
+
+.homecare-appointment-success__icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 106px;
+    height: 106px;
+    margin: 0 auto 32px;
+    border: 2px solid #c7e2f8;
+    border-radius: 50%;
+    background: #e8f4ff;
+    color: var(--homecare-primary);
+    font-size: 44px;
+    box-shadow: 0 14px 40px rgba(40, 105, 170, .12);
+    animation: homecareAppointmentPop .65s ease both;
+}
+
+.homecare-appointment-success__eyebrow {
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.homecare-appointment-success__eyebrow::before { display: none; }
+.homecare-appointment-success__title {
+    margin-bottom: 26px;
+    font-size: clamp(34px, 4.4vw, 55px);
+}
+.homecare-appointment-success__title span {
+    display: block;
+    color: var(--homecare-primary);
+}
+.homecare-appointment-success__divider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom: 28px;
+    color: var(--homecare-primary);
+}
+.homecare-appointment-success__divider span {
+    width: 58px;
+    height: 1px;
+    background: #c8dce9;
+}
+.homecare-appointment-success__description {
+    max-width: 630px;
+    margin: 0 auto 32px;
+    font-size: 18px;
+    line-height: 1.85;
+}
+.homecare-appointment-success__message {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    max-width: 640px;
+    margin: 0 auto 28px;
+    padding: 28px 30px;
+    border: 1px solid #dceaf4;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, .88);
+    box-shadow: 0 15px 45px rgba(25, 75, 115, .06);
+    text-align: left;
+}
+.homecare-appointment-success__message-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 0 0 52px;
+    width: 52px;
+    height: 52px;
+    border-radius: 14px;
+    background: #eaf4ff;
+    color: var(--homecare-primary);
+    font-size: 23px;
+}
+.homecare-appointment-success__message h2 {
+    margin: 0 0 8px;
+    font-size: 20px;
+    font-weight: 800;
+}
+.homecare-appointment-success__message p { margin: 0; font-size: 15px; line-height: 1.8; }
+.homecare-appointment-success__closing { margin-bottom: 26px; font-weight: 700; }
+.homecare-appointment-success__button { display: inline-flex; align-items: center; justify-content: center; }
+.homecare-appointment-success__button i { margin-right: 8px; }
+.homecare-appointment-success__emergency {
+    max-width: 570px;
+    margin: 32px auto 0;
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--homecare-text);
+}
+.homecare-appointment-success__emergency i { margin-right: 6px; color: var(--homecare-primary); }
+
+@keyframes homecareAppointmentEnter {
+    from { opacity: 0; transform: translateY(22px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+@keyframes homecareAppointmentPop {
+    from { opacity: 0; transform: scale(.65); }
+    to { opacity: 1; transform: scale(1); }
+}
+@media (max-width: 767px) {
+    .homecare-appointment-success { min-height: 75vh; padding: 115px 14px 75px; }
+    .homecare-appointment-success__icon { width: 86px; height: 86px; font-size: 35px; }
+    .homecare-appointment-success__description { font-size: 16px; }
+    .homecare-appointment-success__message { padding: 22px; gap: 14px; }
+    .homecare-appointment-success__message-icon { flex-basis: 42px; width: 42px; height: 42px; font-size: 19px; }
+    .homecare-appointment-success__message h2 { font-size: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+    .homecare-appointment-success__content,
+    .homecare-appointment-success__icon { animation: none; }
+}

@@ -22,4 +22,9 @@ class FrontEndController extends Controller
         return view('main_pages_files.teaching');
     }
 
+    /** Show the appointment success page */
+    public function appointment() {
+        return view('main_pages_files.appointment');
+    }
+
 }
