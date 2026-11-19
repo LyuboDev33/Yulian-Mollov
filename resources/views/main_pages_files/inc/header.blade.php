@@ -35,17 +35,15 @@
                      @endauth
                  @endif
 
+{{-- 
 
-
-                 <a data-cal-link="dr-yulian-mollov/30min"
-                    data-cal-namespace="30min"
-                     data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
+                 <a href="tel:+359895962610"
                      class="careox-btn">
                      <span>
                          <i class="icofont-heart"></i>
-                         Запази си час
+                         Свържи се с мен
                      </span>
-                 </a>
+                 </a> --}}
 
 
 

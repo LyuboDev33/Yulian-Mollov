@@ -65,18 +65,13 @@
                             </p>
 
                             <div class="homecare-hero__actions">
-
-                                {{-- <a href="#" data-cal-link="dr-yulian-mollov/30min" data-cal-namespace="30min"
-                                    data-cal-config='{"layout":"month_view","useSlotsViewOnSmallScreen":true}'
+                                <a href="tel:+359895962610"
                                     class="careox-btn">
-
                                     <span>
-                                        <i class="fa-solid fa-calendar-check"></i>
-                                        Запази си час
+                                        <i class="fa-solid fa-phone"></i>
+                                        Свържи се с мен
                                     </span>
-                                </a> --}}
-
-
+                                </a>
                             </div>
 
                             <div class="homecare-hero__note">
@@ -169,6 +164,13 @@
                         </p>
 
 
+                         <a href="tel:+359895962610"
+                                    class="careox-btn">
+                                    <span>
+                                        <i class="fa-solid fa-phone"></i>
+                                        +359 895 962 610
+                                    </span>
+                                </a>
 
                     </div>
 
@@ -878,11 +880,19 @@
                         </p>
 
                         <p class="homecare-pricing__phone">
-                            <i class="fa-solid fa-phone" aria-hidden="true"></i>
+                            {{-- <i class="fa-solid fa-phone" aria-hidden="true"></i>
                             Телефон:
                             <a href="tel:+359895962610">
                                 <strong>0895 962 610</strong>
-                            </a>
+                            </a> --}}
+
+                             <a href="tel:+359895962610"
+                                    class="careox-btn">
+                                    <span>
+                                        <i class="fa-solid fa-phone"></i>
+                                        +359895 962 610
+                                    </span>
+                                </a>
                         </p>
                     </div>
                 </article>
